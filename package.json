@@ -1,0 +1,16 @@
+{
+  "name": "bug-rollup-string-encoder",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "readable-stream": "3.6.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "22.0.0",
+    "@rollup/plugin-node-resolve": "13.3.0",
+    "rollup": "2.75.6"
+  }
+}
